@@ -64,7 +64,7 @@ insert into tb_aluno_aula (id, frequencia, aluno_id, aula_id) values (1, true, 1
 insert into tb_aluno_aula (id, frequencia, aluno_id, aula_id) values (2, true, 1, 2);
 insert into tb_aluno_aula (id, frequencia, aluno_id, aula_id) values (3, true, 7, 4);
 
-insert into tb_atividade (id, data_criacao, data_entrega, descricao, nota_maxima, tipo) values (default, '2022-07-11', '2022-07-15', 'Teste avaliativo', 5.0, 'teste');
+insert into tb_atividade (id, data_criacao, data_entrega, descricao, nota_maxima, tipo, professor_turma_disciplina_id) values (default, '2022-07-11', '2022-07-15', 'Teste avaliativo', 5.0, 'teste', 1);
 insert into tb_atividade (id, data_criacao, data_entrega, descricao, nota_maxima, tipo) values (default, '2022-07-11', '2022-07-16', 'Teste avaliativo', 0.5, 'teste');
 insert into tb_atividade (id, data_criacao, data_entrega, descricao, nota_maxima, tipo) values (default, '2022-07-15', '2022-07-18', 'Prova', 25.0, 'prova');
 insert into tb_atividade (id, data_criacao, data_entrega, descricao, nota_maxima, tipo) values (default, '2022-07-16', '2022-07-17', 'Ativiade avaliativa', 0.3, 'atividade');
